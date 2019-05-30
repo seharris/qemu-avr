@@ -1,3 +1,24 @@
+Preface
+=======
+
+This is a fork of QEMU with (limited) support for Microchip/Atmel AVR
+microcontrollers.
+
+This fork is based on work by Michael Rolnik, found here:
+https://github.com/michaelrolnik/qemu-avr
+
+The current limitations of this fork are mostly due to missing
+emulation of on-board peripherals like timers, GPIOs, and USARTs.
+As a result there is only a sample board definition; emulating some
+real piece of hardware will probably involve tinkering with QEMU code.
+
+AVR emulation has been tested to assure accuracy.
+Details of how this was done, and the limitations of the tests are here:
+https://github.com/seharris/qemu-avr-tests
+
+The original readme follows...
+
+
          QEMU README
          ===========
 
