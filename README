@@ -2,7 +2,7 @@ Preface
 =======
 
 This is a fork of QEMU with (limited) support for Microchip/Atmel AVR
-microcontrollers.
+microcontrollers, produced as part of work for the University of Kent.
 
 This fork is based on work by Michael Rolnik, found here:
 https://github.com/michaelrolnik/qemu-avr
